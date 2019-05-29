@@ -15,7 +15,7 @@ public class FunnyCatBot extends TelegramLongPollingBot {
             Long chatId = update.getMessage().getChatId();
             sendPhoto.setChatId(chatId);
             sendPhoto.setPhoto(new File(
-                    "/home/esurovskiy/cat.jpeg"));
+                    "C:/Users/user/Desktop/bmp-kartinki3.bm"));
 
             try {
                 execute(sendPhoto);
@@ -26,10 +26,10 @@ public class FunnyCatBot extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return "calc_example_bot";
+        return "Miroslav_Makarov_Bot";
     }
 
     public String getBotToken() {
-        return "835939536:AAHUhLHM5IOSA_hbkNnsRyzEFoIloSgu4dM";
+        return "752468125:AAHXllSYQAz0_zImB-jd8U5Fa93TuWYGSBo";
     }
 }

@@ -28,10 +28,10 @@ public class CalculatorTgBot extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return "calc_example_bot";
+        return "Miroslav_Makarov_Bot";
     }
 
     public String getBotToken() {
-        return "835939536:AAHUhLHM5IOSA_hbkNnsRyzEFoIloSgu4dM";
+        return "752468125:AAHXllSYQAz0_zImB-jd8U5Fa93TuWYGSBo";
     }
 }
